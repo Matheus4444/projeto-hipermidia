@@ -1,0 +1,544 @@
+body.principal{
+	background-color: rgb(0, 0, 0);
+	align-items: center;
+	display: grid;
+	justify-items: center;
+	grid-template-areas: 
+	"logo header header"
+	"menu menu menu"
+	"carousel carousel carousel"
+	;
+}
+body.historia, .sobre{
+	background-color: rgb(0, 0, 0);
+	align-items: center;
+	display: grid;
+	justify-items: center;
+	grid-template-areas: 
+	"logo header header"
+	"menu menu menu"
+	"conteudo conteudo conteudo"
+	;
+}
+body.discografia{
+	background-color: rgb(0, 0, 0);
+	align-items: center;
+	display: grid;
+	justify-items: center;
+	grid-template-areas: 
+	"logo header header"
+	"menu menu menu"
+	"separador separador separador"
+	"album1 album2 album3"
+	"album4 album5 album6" 
+	"album7 album8 album9"
+	"album10 album11 album12"
+	"album13 album14 vazio"
+	"separador2 separador2 separador2"
+	"single1 single2 single3"
+	"single4 single5 single6"
+	"single7 single8 single9"
+	"single10 single11 single12"
+	"single13 single14 single15"
+	"single16 single17 single18"
+	"single19 single20 empty"
+	;
+}
+body.membros_anteriores{
+	background-color: rgb(0, 0, 0);
+	align-items: center;
+	display: grid;
+	justify-items: center;
+	grid-template-areas: 
+	"logo header header"
+	"menu menu menu"
+	"card1 card1 card1"
+	"card2 card2 card2"
+	;
+}
+body.membros_atuais{
+	background-color: rgb(0, 0, 0);
+	align-items: center;
+	display: grid;
+	justify-items: center;
+	grid-template-areas: 
+	"logo header header"
+	"menu menu menu"
+	"card1 card1 card1"
+	"card2 card2 card2"
+	"card3 card3 card3"
+	"card4 card4 card4"
+	"card5 card5 card5"
+	"card6 card6 card6"
+	;
+}
+.carousel{ 
+	width:920px; height:630px; 
+	grid-area: carousel;
+}
+.header{ 
+	grid-area: header;
+	color: gray;
+}
+.logo{
+	grid-area:logo;
+}
+.menu{
+	grid-area:menu;
+}
+li.menu-item{
+	width: 150px;
+	border: none;
+	padding: 10px;
+	display: inline;
+	background-color: rgb(9, 7, 7);
+}
+a{
+	color: gray;
+	text-decoration: none;
+}
+a:hover{
+	color: darkgray;
+	text-decoration: none;
+}
+.conteudo{
+	grid-area: conteudo;
+	color: gray;
+}
+.card1{
+	width: 1080px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: card1;
+}
+.card2{
+	width: 1080px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: card2;
+}
+.card3{
+	width: 1080px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: card3;
+}
+.card4{
+	width: 1080px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: card4;
+}
+.card5{
+	width: 1080px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: card5;
+}
+.card6{
+	width: 1080px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: card6;
+}
+.separador{
+	width: 100%;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: separador;
+	justify-content: center;
+}
+.separador2{
+	width: 100%;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: separador2;
+	justify-content: center;
+}
+.description{
+	padding-left: 30px;
+}
+.profile{
+	width: 450px;
+	height: 600px;
+}
+.profile2{
+	width: 333px;
+	height: 499px;
+}
+.album1{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album1;
+}
+.album2{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album2;
+}
+.album3{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album3;
+}
+.album4{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album4;
+}
+.album5{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album5;
+}
+.album6{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album6;
+}
+.album7{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album7;
+}
+.album8{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album8;
+}
+.album9{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album9;
+}
+.album10{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album10;
+}
+.album11{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album11;
+}
+.album12{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album12;
+}
+.album13{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album13;
+}
+.album14{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: album14;
+}
+.single1{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single1;
+}
+.single2{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single2;
+}
+.single3{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single3;
+}
+.single4{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single4;
+}
+.single5{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single5;
+}
+.single6{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single6;
+}
+.single7{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single7;
+}
+.single8{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single8;
+}
+.single9{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single9;
+}
+.single10{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single10;
+}
+.single11{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single11;
+}
+.single12{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single12;
+}
+.single13{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single13;
+}
+.single14{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single14;
+}
+.single15{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single15;
+}
+.single16{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single16;
+}
+.single17{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single17;
+}
+.single18{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single18;
+}
+.single19{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single19;
+}
+.single20{
+	width: 500px;
+	border: none;
+	padding: 10px;
+	display: flex;
+	background-color: rgb(9, 7, 7);
+	flex-direction: row;
+	color: gray;
+	grid-area: single20;
+}
+.icon{
+	width: 226px;
+	height: 236px;
+}
